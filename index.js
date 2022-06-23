@@ -100,7 +100,7 @@ const listener = (req, res) => {
     })
 };
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 1010;
 http.createServer(listener).listen(port, () => {
     console.log('Server started on port ' + port);
 });
