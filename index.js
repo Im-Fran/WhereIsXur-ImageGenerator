@@ -42,7 +42,7 @@ const listener = (req, res) => {
     <script src="https://unpkg.com/html-to-image@1.9.0/dist/html-to-image.js"></script>
 </head>
 <body>
-<div class="bg-black p-5 flex flex-col text-gray-200">
+<div class="bg-black p-5 flex flex-col text-gray-200" id="content">
     <h1 class="text-2xl mx-2 mb-2" id="title">${location}</h1>
     <div class="text-xl mx-5 flex flex-row">
         <!-- Days -->
