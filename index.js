@@ -42,8 +42,7 @@ const listener = (req, res) => {
     <script src="https://unpkg.com/html-to-image@1.9.0/dist/html-to-image.js"></script>
 </head>
 <body>
-<div class="absolute block bg-black"  id="content">
-<div class="p-5 flex flex-col text-gray-200">
+<div class="bg-black p-5 flex flex-col text-gray-200">
     <h1 class="text-2xl mx-2 mb-2" id="title">${location}</h1>
     <div class="text-xl mx-5 flex flex-row">
         <!-- Days -->
@@ -78,9 +77,7 @@ const listener = (req, res) => {
             <span class="mx-3" id="seconds">${secondsUntilXur && secondsUntilXur > 0 ? secondsUntilXur : '00'}</span>
             <span class="text-sm -px-2">Second(s)</span>
         </div>
-
     </div>
-</div>
 </div>
 <img id="img" alt="" style="display: none"/>
 <script>
